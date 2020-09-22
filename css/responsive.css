@@ -1,0 +1,122 @@
+
+@media (max-width: 1200px){
+	.container
+	{
+		max-width: 1140px;
+	}
+}
+@media (max-width: 1030px){
+	.container
+	{
+		max-width: 540px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.col-768
+	{
+		width: 100% !important;
+		float: none !important; 
+	}
+	.col-md-768
+	{
+		width: 50% !important;
+	}
+	.main-nav
+	{
+	    position: fixed;
+	    display: flex;
+	    justify-content: center;
+	    z-index: 99999;
+	    top: 0;
+	}
+	.main-nav nav
+	 {
+	    width: 540px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin-right: 0;
+	}
+	.profile-section 
+	{
+		margin-right: 0 !important;
+		margin-top: 0;
+	}
+	
+	.main-nav nav li a 
+	{
+	    font-size: 13px !important;
+	    padding-bottom: 7px !important;
+	}
+	.main-nav nav ul{
+		display: flex;;
+	}
+	.main-nav nav li 
+	{
+	    padding: 0px 18px !important;
+	    border-right: 1px solid #ddd;
+	    border-bottom: 0px solid #ddd !important;
+	}
+	.container-profile-des 
+	{
+	    width: 100% !important;
+	    height: auto !important;
+	    margin-left: 0px !important;
+	    border-top-left-radius: 8px !important;
+	    border-bottom-left-radius: 8px !important;
+	    overflow-y: hidden !important;
+	}
+	h2.title 
+	{
+    	font-size: 25px !important;
+	}
+	.overly-items-des
+	{
+		display: block !important;
+	}
+}
+@media (max-width: 560px){
+	/*.container{
+		margin-right: 3px !important;
+	}*/
+	.lang-test-1 ul li, .lang-test-2 ul li, .lang-test-3 ul li, .lang-test-4 ul li 
+	{
+   		 margin-right: 26px !important;
+	}
+	.main-nav nav li a 
+	{
+	    padding-bottom: 7px !important; 
+	}
+	.ab-datails ul li 
+	{
+	    width: 100% !important;
+	}
+	.col-sm-560
+	{
+		width: 100% !important;
+	}
+	.work-button button a
+	 {
+	    font-size: 12px !important;
+	    padding-right: 16px !important;
+	    margin-left: -5px !important;
+	}
+	.headding-title.w-flat h3
+	 {
+	    width: 100% !important;
+	    float: none !important;
+	}
+	.work-button
+	 {
+	    width: 100% !important;
+	    text-align: left !important;
+	    float: none !important;
+	    margin-top: 15px !important;
+	}
+}
+@media (max-width: 491px){
+	.main-nav nav li a 
+	{
+    	font-size: 9px !important;
+	}
+}
